@@ -133,5 +133,10 @@ body {
   font-size: smaller;
 }
 
-
+.icon-text {
+  width: 2em;
+  height: 2em;
+  vertical-align: text-bottom;
+  margin-right: 0.5em;
+}
 
