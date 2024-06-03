@@ -24,7 +24,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-  <title>PianoMotion12M</title>
+  <title>PianoMotion10M</title>
   <link rel="icon" type="image/x-icon" href="static/images/favicon.png">
   <link rel="stylesheet" href="https://use.typekit.net/oov2wcw.css">
   <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
@@ -56,13 +56,13 @@
             <h1 class="title is-1 publication-title"><img
                     src="static/images/favicon.png"
                     class="icon-text" />
-                <span class="pianomotion">PianoMotion12M</span>: <br> Dataset and Benchmark  for Hand Motion Generation in Piano Performance</h1>
+                <span class="pianomotion">PianoMotion10M</span>: <br> Dataset and Benchmark for Hand Motion Generation in Piano Performance</h1>
             <div class="is-size-5 publication-authors">
               <!-- Paper authors -->
               <span class="author-block">
-                Qijun Gan<sup>1</sup>,</span>
+                <a href="https://github.com/agnJason" target="_blank">Qijun Gan<sup>1</sup>,</a></span>
                 <span class="author-block">
-                  Song Wang<sup>1</sup>,</span>
+                   <a href="https://songw-zju.github.io/" target="_blank">Song Wang<sup>1</sup>,</a></span>
                   <span class="author-block">
                     Shengtao Wu<sup>2</sup>,
                   </span>
@@ -105,23 +105,23 @@
 
                   <!-- Github link -->
                   <span class="link-block">
-                    <a href="" target="_blank"
+                    <a href="https://github.com/agnJason/PianoMotion10M" target="_blank"
                     class="external-link button is-normal is-rounded is-dark">
                     <span class="icon">
                       <i class="fab fa-github"></i>
                     </span>
-                    <span>Code(coming soon)</span>
+                    <span>Code</span>
                   </a>
                 </span>
 
                 <!-- ArXiv abstract Link -->
                 <span class="link-block">
-                  <a href="" target="_blank"
+                  <a href="https://drive.google.com/drive/folders/1JY0zOE0s7v9ZYLlIP1kCZUdNrih5nYEt?usp=sharing" target="_blank"
                   class="external-link button is-normal is-rounded is-dark">
                   <svg style="width:25px;height:25px" viewBox="0 0 30 25">
                       <path fill="currentColor" d="M12,3C7.58,3 4,4.79 4,7C4,9.21 7.58,11 12,11C16.42,11 20,9.21 20,7C20,4.79 16.42,3 12,3M4,9V12C4,14.21 7.58,16 12,16C16.42,16 20,14.21 20,12V9C20,11.21 16.42,13 12,13C7.58,13 4,11.21 4,9M4,14V17C4,19.21 7.58,21 12,21C16.42,21 20,19.21 20,17V14C20,16.21 16.42,18 12,18C7.58,18 4,16.21 4,14Z"></path>
                   </svg>
-                  <span>PianoMotion12M Dataset(coming soon)</span>
+                  <span><span class="pianomotion">PianoMotion10M</span> Dataset</span>
                 </a>
               </span>
             </div>
@@ -137,7 +137,7 @@
     <div class="hero-body">
       <img src="static/images/firstimg.png" alt="MY ALT TEXT"/>
         <h2 class="subtitle has-text-justified">
-          Fig. 1. Overview of our framework. We collect videos of expert piano performances from the internet and annotated and processed them to obtain a large-scale dataset, PianoMotion12M, comprising piano music and hand motions. Building upon this dataset, we establish a benchmark aimed at generating hand movements from piano music.
+          Fig. 1. Overview of our framework. We collect videos of professional piano performances from the Internet and process them to construct a large-scale dataset, <span class="pianomotion">PianoMotion10M</span>, which comprises piano music, MIDI files and hand motions. Building upon this dataset, we establish a benchmark for generating hand motions from piano music.
         </h2>
       </div>
     </div>
@@ -153,8 +153,7 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            Recent years have witnessed the increasing importance of artificial intelligence in the field of education, and designing music instrument instructing systems remains an open problem. In this work, we introduce a piano-hand motion prediction benchmark for guidance on hand movements and techniques for piano playing. We provide a annotated dataset, PianoMotion12M consisting of 131 hours videos of piano playing from an overhead perspective with 12 million annotated hand poses. We also introduce a powerful baseline models which generates hand motions with piano audios through a position predictor and a position-guide gesture generator. Furthermore, several evaluation metrics are designed to assess the performance of baseline models, including motion similarity, smoothness, positional accuracy of left and right hand, and overall similarity of movement distribution. While piano key presses based on sheet music or audios are easily accessible, PianoMotion12M aims to provide guidance on piano fingering for piano instruction.
-          </p>
+            Recently, artificial intelligence techniques for education have been received increasing attentions, while it remains an open problem to design the effective music instrument instructing systems. Although key presses can be directly derived from sheet music, the transitional movements among key presses require more extensive guidance in piano performance. In this work, we construct a piano-hand motion generation benchmark to guide hand movements and fingerings for piano playing. To this end, we collect an annotated dataset, <span class="pianomotion">PianoMotion10M</span>, consisting of 116 hours of piano playing videos from a bird's-eye-view with 10 million annotated hand poses. We also introduce a powerful baseline model that generates hand motions from piano audios through a position predictor and a position-guided gesture generator. Furthermore, several evaluation metrics are designed to assess the performance of the baseline model, including motion similarity, smoothness, positional accuracy of left and right hands, and overall fidelity of movement distribution. Despite that piano key presses with respect to music scores or audios are already accessible, <span class="pianomotion">PianoMotion10M</span> aims to provide guidance on piano fingering for instruction purposes.           </p>
         </div>
       </div>
     </div>
@@ -166,7 +165,7 @@
     <div class="hero-body">
       <img src="static/images/compare.png" alt="MY ALT TEXT"/>
         <h2 class="subtitle has-text-justified">
-          Table. 1 .Comparison between different hand or motion datasets. The proposed PianoMotion12M is the first dataset includes piano music and hand poses for piano hand motion generation. Our dataset also provides various musical annotations such as MIDI. We include hand-image datasets in the first four rows and music-motion datasets in the next four rows for reference.
+          Table. 1 .Comparison between different hand and motion datasets. The proposed <span class="pianomotion">PianoMotion10M</span> dataset consists of piano music with corresponding hand poses for hand motion generation. Existing hand-image datasets are listed in the first four rows, and music-motion datasets are presented in the subsequent four rows for reference.
         </h2>
       </div>
     </div>
@@ -190,7 +189,7 @@
 <section class="hero is-small">
   <div class="hero-body">
     <div class="container">
-      <h2 class="title is-3">PianoMotion12M Data Samples</h2>
+      <h2 class="title is-3"><span class="pianomotion">PianoMotion10M</span> Data Samples</h2>
       <div id="results-carousel" class="carousel results-carousel">
         <div class="item item-video1">
           <video poster="" id="video1" controls height="100%">
